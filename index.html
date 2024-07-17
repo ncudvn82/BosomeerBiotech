@@ -1,135 +1,416 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bosomeer: Personalized Breast Cancer Radiation Therapy Solutions</title>
-    <link rel="stylesheet" href="styles2.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
 </head>
 <body>
-<header id="home">
-    <img src="./imagee/image3.png" alt="Bosomeer Logo" class="logo">
-    <h1>Bosomeer: Personalized Breast Cancer Radiation Therapy Solutions</h1>
-</header>
 
 <nav>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About PERSBRA</a></li>
-        <li><a href="#how-it-works">How It Works</a></li>
-        <li><a href="#clinical-results">Clinical Results</a></li>
-        <li><a href="#presentation">About Us</a></li>
-        <li><a href="#videos">Videos</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-    </ul>
+    <div class="nav">
+        <div class="navcard"></div>
+        <div class="top">
+            <div class="frame-parent">
+                <div class="cn-wrapper">
+                    <a class="navcn">嘉存生醫</a>
+                </div>
+                <b class="naven">Bosomeer Biotech</b>
+            </div>
+            <div class="menu-toggle">☰</div>
+        </div>
+
+        <div class="nav-inner">
+            <div class="frame-group">
+                <div class="product-header-wrapper">
+                    <div class="product-header">
+                        <a href="#home" class="a">首頁</a>
+                        <a href="#intro" class="a1">產品簡介</a>
+                        <a href="#solution" class="a2">產品特色</a>
+                        <a href="resources.html" class="a2">相關資料</a>
+                    </div>
+                </div>
+                <div class="button-parent">
+                    <a href="#reserve" class="a3">
+                    <button class="buttonN">
+                        <div class="button1"></div>
+                        <div class="buttontitle">預約諮詢</div>
+                    </button></a>
+                    <div class="language-options-wrapper">
+                        <div class="language-options">
+                            <a class="cn1" href="index.html">CN</a>
+                            <div class="navdiv">|</div>
+                            <a class="en1" href="index.html">EN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </nav>
 
-<main class="container">
-    <section  class="card">
-        <h2>Introduction</h2>
-        <p>PERSBRA (Personalized Breast Holder) is an innovative technology developed by a team from Taipei Medical University and National Taipei University of Technology to improve breast cancer radiation therapy. This personalized solution aims to reduce radiation exposure to the heart and lungs during treatment.</p>
+<div class="index">
+    <section class="header" id="home">
+        <div class="video-intro">
+            <img
+                    class="logo-1-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/logo-1@2x.png"
+            />
+        </div>
+        <b class="title">Bosomeer: 個人化乳癌放療輔具</b>
     </section>
-
-    <section id="about" class="card">
-        <h2>About PERSBRA</h2>
-        <ul>
-            <li>Custom-made single-sided bra using precise <span class="no-highlight">3D</span> printing technology</li>
-            <li>Unique design alters the relative position of the breast and heart</li>
-            <li>Maintains effective radiation dose to the breast while reducing exposure to vital organs</li>
-            <li>Seamlessly integrates with existing breast cancer radiation therapy protocols</li>
-        </ul>
-    </section>
-
-    <section id="product-images" class="card">
-        <h2>PERSBRA Device</h2>
-        <div class="image-container">
-            <figure>
-                <img src="./imagee/image2.jpg" alt="PERSBRA device held in hand" class="product-image">
-                <figcaption>PERSBRA device demonstration</figcaption>
-            </figure>
-            <figure>
-                <img src="./imagee/image6.png" alt="Close-up of PERSBRA device" class="product-image">
-                <figcaption>Close-up view of PERSBRA</figcaption>
-            </figure>
+    <section class="methods" data-animate-on-scroll>
+        <div class="introduction" id="intro">
+            <div class="card"></div>
+            <div class="title-wrapper">
+                <b class="title1">
+              <span>
+                <p class="persbra">PERSBRA</p>
+                <p class="p">為乳癌患者所打造的個人化放療輔具</p>
+              </span>
+                </b>
+            </div>
+            <div class="div">
+                <p class="p1">
+                    由台北醫學大學與台北科技大學團隊研發的一項創新技術。
+                </p>
+                <p class="p2">用於改善乳腺癌放射治療</p>
+            </div>
+            <div class="div1">
+                個性化的解決方案，減少治療期間對心臟和肺部的輻射暴露，成為乳癌病患的心肺守護者。
+            </div>
         </div>
     </section>
+    <section class="index-inner" data-animate-on-scroll>
+        <div class="card-parent">
+            <div class="card1"></div>
+            <video class="video" controls>
+                <source
+                        src="./public/PERSBRA.mp4"
+                />
+            </video>
 
-    <section id="how-it-works" class="card">
-        <h2>Benefits</h2>
-        <ul>
-            <li>Reduces radiation dose to the heart and lungs by up to <span class="highlight-number">30%</span></li>
-            <li>Easy to wear and comfortable for patients</li>
-            <li>No additional pain during treatment</li>
-            <li>Does not extend treatment time or increase workload for medical staff</li>
-            <li>Affordable solution for improved long-term health outcomes</li>
-        </ul>
-    </section>
-
-    <section id="clinical-results" class="card">
-        <h2>Clinical Results</h2>
-        <p>Human trials at Taipei Medical University Hospital showed:</p>
-        <ul>
-            <li><span class="highlight-number">31%</span> reduction in mean radiation dose to the heart</li>
-            <li><span class="highlight-number">31%</span> reduction in mean radiation dose to the left lung</li>
-            <li><span class="highlight-number">95%</span> position reproducibility (N=25)</li>
-        </ul>
-    </section>
-
-    <section id="market-potential" class="card">
-        <h2>Market Potential</h2>
-        <ul>
-            <li>Global: <span class="highlight-number">800,000</span> patients/year (potential market)</li>
-            <li>Taiwan & Japan: <span class="highlight-number">43,000</span> patients/year (overall potential market)</li>
-            <li>Taiwan & Japan: <span class="highlight-number">12,000</span> patients/year (serviceable market)</li>
-        </ul>
-    </section>
-
-    <section id="presentation" class="card">
-        <h2>About Us and Our Product</h2>
-        <div class="presentation-container">
-            <iframe src="./Resources/Bosomeer.pdf" width="476px" height="282px" frameborder="0"></iframe>
+            <div class="player-title">
+                <div class="title2">個人化乳癌放療輔具PERSBRA</div>
+            </div>
         </div>
     </section>
-
-    <section id="videos" class="card">
-        <h2>Videos</h2>
-        <div class="video-container">
-            <h3>Introduction to PERSBRA (PERSonalized BReAst holder system)</h3>
-            <p>Learn about the innovative PERSBRA technology and its benefits for breast cancer patients undergoing radiation therapy.</p>
-            <iframe src="./Resources/PERSBRA.mp4" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="個人化乳癌放療輔具PERSBRA (PERSonalized BReAst holder system) (1).mp4"></iframe>
+    <section class="solution-details" data-animate-on-scroll>
+        <div class="datas">
+            <div class="card2"></div>
+            <div class="chart-title">
+                <b class="title3">
+              <span class="title-txt">
+                <p class="p3">放療增加</p>
+                <p class="p4">心臟病罹病風險</p>
+              </span>
+                </b>
+            </div>
+            <div class="texts">
+                <div class="parent">
+                    <div class="div2">心臟輻射量增加時罹病風險</div>
+                    <div class="radiation-unit">
+                        <b class="gy">↑7.4%/Gy</b>
+                    </div>
+                </div>
+                <div class="parent">
+                    <div class="div2">心臟病死亡風險&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+                    <div class="radiation-unit">
+                        <b class="gy">2倍</b>
+                    </div>
+                </div>
+                <div class="parent">
+                    <div class="div2">心臟病住院風險&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+                    <div class="radiation-unit">
+                        <b class="gy">3倍</b>
+                    </div>
+                </div>
+                <div class="parent">
+                    <div class="div2">2011-2020年相關研究論文</div>
+                    <div class="radiation-unit">
+                        <b class="gy">212篇</b>
+                    </div>
+                </div>
+                <!--div class="texts-inner">
+                    <div class="group">
+                        <div class="div3">心臟病死亡風險</div>
+                        <div class="risk-multiplier">
+                            <b class="b">2倍</b>
+                        </div>
+                    </div>
+                </div-->
+                <!--div class="texts-child">
+                    <div class="container">
+                        <div class="div4">心臟病住院風險</div>
+                        <div class="wrapper">
+                            <b class="b1">3倍</b>
+                        </div>
+                    </div>
+                </div-->
+                <!--div class="papers-title-parent">
+                    <div class="papers-title">
+                        <div class="div5">2011-2020年相關研究論文</div>
+                    </div>
+                    <b class="b2">212篇</b>
+                </div-->
+            </div>
         </div>
-        <div class="video-container">
-            <h3>How to Wear the PERSBRA Device</h3>
-            <p>This video demonstrates the proper way to wear the PERSBRA device for breast cancer radiation therapy.</p>
-            <iframe src="./Resources/Method.mp4" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="嘉存生醫乳癌放療輔具穿戴方式.mp4"></iframe>
+    </section>
+    <section class="treatment-methods" data-animate-on-scroll>
+        <div class="methodsnow">
+            <div class="card3"></div>
+            <b class="title4">現行臨床上的放療心肺保護方式</b>
+            <div class="method-comparison">
+                <div class="treatment-options">
+                    <div class="treatment-types">
+                        <div class="method-type">
+                            <img
+                                    class="image-1-icon"
+                                    loading="lazy"
+                                    alt=""
+                                    src="./public/image-1@2x.jpeg"
+                            />
+
+                            <b class="b3">質子治療</b>
+                        </div>
+                        <div class="method-drawbacks">
+                            <b class="b4">治療費用高</b>
+                        </div>
+                    </div>
+                    <div class="treatment-types1">
+                        <div class="image-2-parent">
+                            <img
+                                    class="image-2-icon"
+                                    loading="lazy"
+                                    alt=""
+                                    src="./public/image-2@2x.jpeg"
+                            />
+
+                            <b class="b5">深吸氣閉氣法</b>
+                        </div>
+                        <div class="frame">
+                            <b class="b6">再現性低</b>
+                        </div>
+                    </div>
+                    <div class="lateral-position">
+                        <div class="lateral-position1">
+                            <div class="position-image">
+                                <img
+                                        class="image-3-icon"
+                                        loading="lazy"
+                                        alt=""
+                                        src="./public/image-3@2x.jpeg"
+                                />
+
+                                <b class="b7">側臥位法</b>
+                            </div>
+                        </div>
+                        <b class="b8">人力需求高</b>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <div class="index-child"></div>
+    <section class="solution" id="reserve">
+        <div class="solution-intro" data-animate-on-scroll id="solD">
+            <div class="solution-title">
+                <div class="title5">我們的解決方案</div>
+                <div class="solution-image">
+                    <img
+                            class="image2-1-icon"
+                            loading="lazy"
+                            alt=""
+                            src="./public/image2-1@2x.jpg"
+                    />
 
-    <section id="resources" class="card">
-        <h2>Resources</h2>
-        <ul class="resource-list">
-            <li><a href="./Resources/Bosomeer_Intro_TC.pdf" target="_blank">Bosomeer PERSBRA Introduction (Traditional Chinese)</a></li>
-            <li><a href="./Resources/Bosomeer_Intro_SC.pdf" target="_blank">Bosomeer PERSBRA Introduction (Simplified Chinese)</a></li>
-            <li><a href="./Resources/PERSBRA_DM1.pdf" target="_blank">PERSBRA DM - 1</a></li>
-            <li><a href="./Resources/PERSBRA_DM2.pdf" target="_blank">PERSBRA DM - 2</a></li>
-            <li><a href="./Resources/PERSBRA_DM_EN.pdf" target="_blank">PERSBRA DM (English)</a></li>
-        </ul>
+                    <h1 class="title6">PERSBRA</h1>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.youtube.com" class="a3" target="_blank" id="buttonD">
+            <button class="buttonN" id="solbutton" data-animate-on-scroll>
+                <div class="button"></div>
+                <div class="buttontitle">預約諮詢</div>
+            </button></a>
+
+        <div class="solution-intro" data-animate-on-scroll id="solA">
+
+        </div>
+        <a href="https://www.youtube.com" class="a3" target="_blank" id="buttonA">
+            <button class="buttonN" id="solbuttonA" data-animate-on-scroll>
+                <div class="button"></div>
+                <div class="buttontitle">預約諮詢</div>
+            </button></a>
     </section>
+    <section class="solution-details1" data-animate-on-scroll>
+        <div class="solution1" id="solution">
+            <div class="card4"></div>
+            <div class="solution-features">
+                <div class="feature-list">
+                    <div class="feature-pair">
+                        <div class="feature-one">
+                            <img
+                                    class="image-4-icon"
+                                    loading="lazy"
+                                    alt=""
+                                    src="./public/image-4@2x.png"
+                            />
 
-    <section id="contact" class="card">
-        <h2>Contact Us</h2>
-        <p>For more information about PERSBRA, please contact:</p>
-        <p>Po Chen</p>
-        <p>Phone: <span class="highlight-number">1-201-238-3117</span></p>
-        <p>Email: <a href="mailto:Pohan.chen@bosomeer.com">Pohan.chen@bosomeer.com</a></p>
+                            <b class="title11">和現行治療方式無縫接軌</b>
+                        </div>
+                    </div>
+                    <div class="feature-two">
+                        <img
+                                class="image-5-icon"
+                                loading="lazy"
+                                alt=""
+                                src="./public/image-5@2x.png"
+                        />
+
+                        <b class="title21">價格可負擔</b>
+                    </div>
+                </div>
+            </div>
+            <div class="solution-benefits">
+                <div class="benefit-list">
+                    <div class="benefit-pair">
+                        <b class="title31">不影響治療效率</b>
+                        <div class="description-images">
+                            <img
+                                    class="image-6-icon"
+                                    alt=""
+                                    src="./public/image-6@2x.png"
+                            />
+
+                            <img
+                                    class="image-7-icon"
+                                    loading="lazy"
+                                    alt=""
+                                    src="./public/image-7@2x.png"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <b class="title41">
+              <span class="title4-txt">
+                <p class="p5">不增加臨床</p>
+                <p class="p6">人力負擔</p>
+              </span>
+                </b>
+            </div>
+        </div>
     </section>
-</main>
+    <section class="solutiondata-wrapper" data-animate-on-scroll>
+        <div class="solutiondata">
+            <div class="stats-title">
+                <b class="title8">PERSBRA具有良好的心肺保護效果</b>
+            </div>
+            <div class="texts1">
+                <div class="frame-div">
+                    <div class="group-div">
+                        <div class="div6">心臟平均暴露劑量</div>
+                        <div class="dose-reduction-value">
+                            <b class="b9">↓31%</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="texts-inner1">
+                    <div class="parent1">
+                        <div class="div7">左肺平均暴露劑量</div>
+                        <div class="wrapper1">
+                            <b class="b10">↓31%</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="parent2">
+                    <div class="div8">位置再現性</div>
+                    <div class="accuracy-value">
+                        <b class="b11">95%</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="introductionvideo" data-animate-on-scroll>
+        <div class="card5"></div>
+        <video class="video" controls>
+            <source
+                    src="./public/Method.mp4"
+            />
+        </video>
+        <div class="title-container">
+            <div class="title9">嘉存生醫乳癌放療輔具穿戴方式</div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="info">
+            <b class="cn">嘉存生醫</b>
+            <b class="en">Bosomeer Biotech</b>
+            <div class="servicecancerfreeio">
+            <span class="servicecancerfreeio1">
+              <p class="blank-line">&nbsp;</p>
+              <p class="p7">電話: 02-2732-2701</p>
+              <p class="servicecancerfreeio2">service@cancerfree.io</p>
+              <p class="p8">​台北市內湖區瑞光路258巷56號3樓之2</p>
+            </span>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/CancerFreeBiotech/" target="_blank"> <img
+                        class="icon001-1"
+                        loading="lazy"
+                        alt=""
+                        src="./public/icon001-1.svg"
+                /></a>
+                <a href="https://www.youtube.com/channel/UCqvEm2rawS8cMXA1PVIn2Bg" target="_blank">
+                    <img
+                        class="icon004-1"
+                        loading="lazy"
+                        alt=""
+                        src="./public/icon004-1.svg"
+                /></a>
 
-<footer>
-    <p>&copy; Bosomeer. All rights reserved.</p>
-</footer>
+            </div>
+            <div class="copyright-2022">
+                COPYRIGHT © 2022 CANCERFREE BIOTECH ALL RIGHTS RESERVED.
+            </div>
+        </div>
+    </footer>
+</div>
 
-<script src="scripts.js"></script>
+<script>
+    var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+    var observer = new IntersectionObserver(
+        (entries) => {
+            for (const entry of entries) {
+                if (entry.isIntersecting || entry.intersectionRatio > 0) {
+                    const targetElement = entry.target;
+                    targetElement.classList.add("animate");
+                } else {
+                    // 當元素離開視窗時，移除 animate 類別
+                    entry.target.classList.remove("animate");
+                }
+            }
+        },
+        {
+            threshold: 0,
+        }
+    );
+
+    for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+    }
+</script>
+<script src="script.js"></script>
 </body>
 </html>
