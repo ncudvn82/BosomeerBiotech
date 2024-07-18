@@ -429,7 +429,7 @@ nav{
     max-width: 100%;
 }
 .header {
-    width: 90rem;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -504,7 +504,7 @@ nav{
 .methods {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     padding: 0 var(--padding-51xl);
     box-sizing: border-box;
@@ -618,6 +618,10 @@ nav{
 .gy {
     position: relative;
     line-height: 3.25rem;
+}
+
+.div2{
+    padding-left: 5vw;
 }
 .gy {
     align-self: stretch;
@@ -1717,7 +1721,7 @@ nav{
     color: var(--color-black);
 }
 .footer {
-    width: 90rem;
+    width: 100vw;
     background-color: #ffb4cd;
     flex-direction: row;
     justify-content: center;
@@ -1737,7 +1741,7 @@ nav{
     overflow-x: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     gap: var(--gap-51xl);
     mix-blend-mode: normal;
@@ -2175,6 +2179,9 @@ nav{
     .div,
     .div1 {
         font-size: var(--font-size-mini);
+    }
+    .div2{
+        padding-left: 0;
     }
     .introduction {
         padding-top: var(--padding-11xl);
