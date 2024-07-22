@@ -456,6 +456,10 @@ nav{
     border-radius: var(--br-29xl);
     display: none;
 }
+
+.persbra{
+    font-size: 2vw;
+}
 .p,
 .persbra {
     margin: 0;
