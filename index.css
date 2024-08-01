@@ -896,7 +896,7 @@ nav{
 .method-type {
     position: relative;
 }
-.method-drawbacks,
+
 .treatment-types {
     display: flex;
     align-items: flex-start;
@@ -961,7 +961,7 @@ nav{
     flex-direction: column;
     padding: 4.187rem 0 0 var(--padding-16xl);
     box-sizing: border-box;
-    gap: 1.375rem;
+    gap: var(--gap-20xl);
 }
 .image-3-icon {
     height: 9.375rem;
@@ -981,7 +981,7 @@ nav{
     mix-blend-mode: linear-burn;
     z-index: 1;
 }
-.lateral-position1,
+
 .position-image {
     display: flex;
     flex-direction: row;
@@ -1004,8 +1004,6 @@ nav{
     width: 14.525rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
     padding: var(--padding-92xl) 0 0 var(--padding-7xl);
     box-sizing: border-box;
     gap: var(--gap-20xl);
@@ -2500,4 +2498,106 @@ nav{
     .menu-toggle {
         display: none;
     }
+}
+
+.solution1 {
+    align-items: center;
+    justify-content: center;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*gap: 20px;*/
+    width: 100%;
+    /*margin: 0 auto;
+    align-items: center;*/
+    justify-content: space-between;
+}
+
+.feature1, .feature2, .feature3, .feature4 {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.feature-image {
+    width: 12vw;
+    height: 12vw;
+    object-fit: cover;
+    margin-right: 2vw;
+}
+
+.feature-title {
+    font-size: 2.5vw;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.treatment-options {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.treatment-types, .treatment-types1, .lateral-position {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    gap: 2vw;
+}
+
+.method-type, .image-2-parent, .position-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+
+.method-image {
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.method-title {
+    font-size: 2.2vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.b4, .b6, .b8 {
+    font-size: 3vw;
+    text-align: center;
+    color: #e91e63;
+    margin-top: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #e91e63;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .treatment-options {
+        flex-direction: column;
+    }
+
+    .treatment-types, .treatment-types1, .lateral-position {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
 }
